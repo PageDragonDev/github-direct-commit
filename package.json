@@ -1,0 +1,32 @@
+{
+  "name": "github-direct-update",
+  "version": "1.0.0",
+  "description": "Library to commmit directly to GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PageDragonDev/github-direct-commit.git"
+  },
+  "keywords": [
+    "GitHub",
+    "git",
+    "node",
+    "nodejs",
+    "javascript",
+    "rest",
+    "commit",
+    "branch"
+  ],
+  "author": "Jerry Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PageDragonDev/github-direct-commit/issues"
+  },
+  "homepage": "https://github.com/PageDragonDev/github-direct-commit#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
