@@ -1,8 +1,8 @@
 {
-  "name": "github-direct-update",
+  "name": "github-direct-commit",
   "version": "1.0.0",
   "description": "Library to commmit directly to GitHub.",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
     "test": "npm test"
   },
