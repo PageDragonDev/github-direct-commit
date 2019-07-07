@@ -1,0 +1,67 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "globals": {
+      "fetch": false
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "react/jsx-uses-vars": [
+            "warn"
+        ],
+        "no-console":"off",
+        "import/no-duplicates": "off",
+        "max-len": "off",
+        "react/jsx-filename-extension": "off",
+        "react/prop-types": "off",
+        "react/prefer-stateless-function": "off",
+        "no-underscore-dangle": "off",
+        "no-plusplus": "off",
+        "no-loop-func": "off",
+        "no-param-reassign": "off",
+        "import/prefer-default-export": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/label-has-for": "off",
+        "react/jsx-indent":[
+            "warn",
+            4
+        ],
+        "react/jsx-indent-props": ["warn", 4]
+    }
+}
