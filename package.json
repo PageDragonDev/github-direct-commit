@@ -1,6 +1,6 @@
 {
   "name": "github-direct-commit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to commmit directly to GitHub.",
   "main": "lib/",
   "scripts": {
